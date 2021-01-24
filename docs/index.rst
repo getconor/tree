@@ -21,8 +21,11 @@ Here's a quick example::
 
 .. note::
 
-   ``tree`` has originally been part of TensorFlow and is available
-   as ``tf.nest``.
+    Most functions of the ``tree`` library were originally a part of TensorFlow 1 as 
+    ``tf.contrib.framework.nest``. When ``contrib`` was deprecated in TensorFlow 2.0, 
+    a few of the original functions were retained and still reside in TensorFlow 2's 
+    ``tf.nest`` library, while most functions were exported to ``tree``, which was 
+    then released separately. 
 
 Installation
 ============
